@@ -2,14 +2,14 @@
 <node>
 <version>6</version>
 <dict>
-  <key>title</key><string>Second Record</string>
-  <key>nodeid</key><string>29638d53-8700-48c0-ad45-6facdaf43c81</string>
-  <key>modified_time</key><integer>1440388764</integer>
+  <key>title</key><string>Транзакции</string>
+  <key>nodeid</key><string>9c0c386c-d145-4cf1-a67f-0a7b8ecc1944</string>
+  <key>modified_time</key><integer>1440394562</integer>
   <key>version</key><integer>6</integer>
   <key>content_type</key><string>text/xhtml+xml</string>
-  <key>created_time</key><integer>1440388752</integer>
+  <key>created_time</key><integer>1440391757</integer>
   <key>info_sort_dir</key><integer>1</integer>
-  <key>order</key><integer>0</integer>
+  <key>order</key><integer>3</integer>
   <key>info_sort</key><string>order</string>
 </dict>
 </node>
