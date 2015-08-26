@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+<version>6</version>
+<dict>
+  <key>title</key><string>Инструкция по управлению учентными записями.pdf</string>
+  <key>nodeid</key><string>b2628251-9a62-43a4-a6a1-c9667679fb17</string>
+  <key>modified_time</key><integer>1440583597</integer>
+  <key>version</key><integer>6</integer>
+  <key>payload_filename</key><string>инструкция по управлению учентными запис.pdf</string>
+  <key>content_type</key><string>application/pdf</string>
+  <key>created_time</key><integer>1440583597</integer>
+  <key>order</key><integer>0</integer>
+</dict>
+</node>
