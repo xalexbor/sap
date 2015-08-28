@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>SAP Configs</title>
+</head><body><b>SAP GUI Connect String</b>&nbsp;- необходима клиенту для подключения к инстанциям. Состоит из след. параметров:<br/>
+<br/>
+<b><i>&lt;host&gt;</i></b>&nbsp;- <b><i>адрес</i></b><br/>
+<b><i>&lt;instance number&gt; - номер инстанции<br/>
+/M/&lt;MessageServerHost&gt; - Адрес Сервера Сообщений<br/>
+/S/&lt;MessageServerPort&gt; - Порт Сервера Сообщений<br/>
+/G/&lt;LogonGroup&gt; - Используется для группировки<br/>
+/WAN - для медленных соединений<br/>
+<br/>
+</i></b>Полный пример, как должна выглядеть строка соединения:<br/>
+<i>sapgui /m/twdf10000/s/3600/g/space<br/>
+<br/>
+</i>Важные админские транзакции:<br/>
+<b>SM04, AL08</b>&nbsp;- Список пользователей<br/>
+<b>SM51</b>&nbsp;- Обзор серверов приложений<br/>
+<b>SM37</b>&nbsp;- Обзор фоновых заданий<br/>
+<b>SM50,SM66 </b>- Управление рабочими процессами<br/>
+<b>SM12</b>&nbsp;- Управление блокировками<br/>
+<b>SM13</b>&nbsp;- Управление обновлениями<br/>
+<b>SM21</b>&nbsp;- Анализ системных логов<br/>
+<b>SM02</b>&nbsp;- Отправка системных сообщений<br/>
+<b>RZ20</b>&nbsp;- Общесистемный мониторинг<br/>
+<b>RZ03,SMLG,SMMS </b>&nbsp;- служба сообщений</body></html>
