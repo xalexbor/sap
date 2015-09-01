@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>SAP FileArch</title>
+</head><body><span style="font-size: 14pt">Расположение данных SAP системы:<br/>
+<br/>
+/usr/sap/&lt;SAPSID&gt;/[SYS;DVEBMGS;D;SCS]/[global;profile;exe;work;j2ee]<br/>
+<br/>
+&lt;SAPSID&gt; - каталог, содержащий все данные которые могу быть доступны в SAP.<br/>
+<br/>
+SYS - содержит информацию,которая доступна со всех инстанций комплекса<br/>
+DVEBMGS&lt;No.&gt; - каталог ABAP-stack центральной инстанции<br/>
+D&lt;No.&gt; - каталог диалоговых инстанций <br/>
+SCS&lt;No.&gt; - Java-stack каталог центральной службы.<br/>
+<br/>
+global - содержит глобальные данные<br/>
+profile - содержит профили: по умолчанию, начальный и инстанцный<br/>
+exe - SAP system kernel.<br/>
+work - логи и примеры конфигов.<br/>
+j2ee - содержит информацию про Java узлы.<br/>
+<br/>
+<br/>
+sapstartsrv - Программа которая читает стартовый профайл в начале начал. Стартовый профайл содержит инструкции по запуску служб инстанций.<br/>
+<br/>
+sapcpe(Central Patch Environment) - служит для копирования/зеркалирования из глобальной директории в локальную.</span></body></html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>SAP Starting and Stopping Logic</title>
+</head><body><span style="font-size: 14pt">Каждая SAP система имеет как минимум одну базу данных.<br/>
+В <b>Java </b>стеке может быть узел <b>Central Service</b><br/>
+</span><span style="font-size: 14pt">В <b>ABAP</b>&nbsp;кофигурации может быть узел <b>ABAP Central Service </b></span><br/>
+<br/>
+<span style="font-size: 14pt">&lt;sid&gt;adm - пользователь управления службами SAP. Все процессы и службы запускаются из под него</span><br/>
+<br/>
+<span style="font-size: 14pt">Ниже отражена последовательность запуска служб на системе <b>SAP</b>:<br/>
+<br/>
+<br/>
+<br/>
+1. Инстанции без <b>ABAP</b>&nbsp;диспетчера, так называемая <b>Central Service</b>&nbsp;(java message server; abap censtal service)<br/>
+2. База данных<br/>
+3. Инстанции с <b>ABAP</b>&nbsp;диспетчером и центральная инстанция<br/>
+4. Все другие инстанции: Диалоговые инстанции<br/>
+<br/>
+<br/>
+Остановки происходит в абсолютно обратном порядке. Сначала другие инстанции, центральная инстанция, база данных и central service.<br/>
+<br/>
+Для управление запусками/остановами служб САП была придумана такая штука, как SAP MC<br/>
+<br/>
+<b>ЛОГИ: </b>находятся по адресу: /usr/sap/&lt;SID&gt;/&lt;instance&gt;&lt;No&gt;/work</span><ul><span style="font-size: 14pt"><li>stderr1..n - логи sapstartsrv, ошибки выполнения</li>
+<li>sapstartsvr.log - Собственно сами логи</li>
+<li>sapstart.log - Стартовые логи базы данных,сервера сообщений,диспетчера</li>
+<li>dev_ms - рабочие логи сервера сообщений</li>
+<li>dev_disp - рабочие логи диспетчера</li>
+<li>dev_w0..n - рабочие логи рабочих процессов</li>
+</span></ul>
+</body></html>
