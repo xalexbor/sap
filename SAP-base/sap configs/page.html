@@ -5,14 +5,14 @@
 <title>SAP Configs</title>
 </head><body><b>SAP GUI Connect String</b>&nbsp;- необходима клиенту для подключения к инстанциям. Состоит из след. параметров:<br/>
 <br/>
-<b><i>&lt;host&gt;</i></b>&nbsp;- <b><i>адрес</i></b><br/>
-<b><i>&lt;instance number&gt; - номер инстанции<br/>
+<i><b>&lt;host&gt;</b></i>&nbsp;- <i><b>адрес</b></i><br/>
+<i><b>&lt;instance number&gt; - номер инстанции<br/>
 /M/&lt;MessageServerHost&gt; - Адрес Сервера Сообщений<br/>
 /S/&lt;MessageServerPort&gt; - Порт Сервера Сообщений<br/>
 /G/&lt;LogonGroup&gt; - Используется для группировки<br/>
 /WAN - для медленных соединений<br/>
 <br/>
-</i></b>Полный пример, как должна выглядеть строка соединения:<br/>
+</b></i>Полный пример, как должна выглядеть строка соединения:<br/>
 <i>sapgui /m/twdf10000/s/3600/g/space<br/>
 <br/>
 </i>Важные админские транзакции:<br/>
@@ -25,4 +25,11 @@
 <b>SM21</b>&nbsp;- Анализ системных логов<br/>
 <b>SM02</b>&nbsp;- Отправка системных сообщений<br/>
 <b>RZ20</b>&nbsp;- Общесистемный мониторинг<br/>
-<b>RZ03,SMLG,SMMS </b>&nbsp;- служба сообщений</body></html>
+<b>RZ03,SMLG,SMMS </b>&nbsp;- служба сообщений<br/>
+<br/>
+<br/>
+<br/>
+Задаваемые параметры:<br/>
+<b>rdisp/rfc_use_quotas</b>&nbsp;- проверка ресурсов<br/>
+<b>rdisp/tm_max_no - </b>количество одновременного подключенных пользователей<br/>
+<b>rdisp/rfc_max_login - </b>процент возможных подключений </body></html>
