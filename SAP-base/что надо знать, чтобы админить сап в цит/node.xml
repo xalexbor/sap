@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+<version>6</version>
+<dict>
+  <key>title</key><string>Что надо знать, чтобы админить САП в ЦИТТО</string>
+  <key>nodeid</key><string>724dcc20-5189-421b-92cf-4c8770d8a234</string>
+  <key>modified_time</key><integer>1442212525</integer>
+  <key>version</key><integer>6</integer>
+  <key>content_type</key><string>text/xhtml+xml</string>
+  <key>created_time</key><integer>1442212159</integer>
+  <key>order</key><integer>18</integer>
+</dict>
+</node>
