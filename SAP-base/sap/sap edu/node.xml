@@ -2,10 +2,10 @@
 <node>
 <version>6</version>
 <dict>
-  <key>expanded</key><false/>
+  <key>expanded</key><true/>
   <key>title</key><string>SAP EDU</string>
   <key>nodeid</key><string>0c16f520-856d-4c7c-8219-249809fe415f</string>
-  <key>modified_time</key><integer>1442209926</integer>
+  <key>modified_time</key><integer>1444028524</integer>
   <key>version</key><integer>6</integer>
   <key>content_type</key><string>text/xhtml+xml</string>
   <key>created_time</key><integer>1440504350</integer>
